@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    background: yellow;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.logo h1 {
+    color: black;
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background: #111;
+    padding: 120px 20px;
+    text-align: center;
+    color: yellow;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Botões */
+.agendamento {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.btn.agendar {
+    background: yellow;
+    color: black;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn.agendar:hover {
+    background: black;
+    color: yellow;
+    border-color: yellow;
+    transition: 0.2s;
+}
+
+.btn.appbarber {
+    background: black;
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.btn.appbarber:hover {
+    background: yellow;
+    color: black;
+    border-color: black;
+}
+
+/* Seções */
+section {
+    padding: 60px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: yellow;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background: #222;
+    padding: 25px;
+    width: 260px;
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 0;
+    color: yellow;
+}
+
+.preco {
+    margin-top: 15px;
+    display: block;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Contato */
+.contato {
+    text-align: center;
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    background: yellow;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+}
